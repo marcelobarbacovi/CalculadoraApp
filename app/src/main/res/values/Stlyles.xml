@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Container_Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+
+
+    </style>
+
+    <style name="Operacao_Button" parent="Container_Button">
+
+        <item name="backgroundTint">@color/azul</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+
+
+    <style name="Igual_Button._Button" parent="Container_Button">
+
+        <item name="backgroundTint">@color/orange</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="Numeros_buttons" parent="Container_Button">
+        <item name="backgroundTint">#FFFFFF</item>
+        <item name="android:textColor">@color/black</item>
+
+
+
+    </style>
+
+
+
+</resources>

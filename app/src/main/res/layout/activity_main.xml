@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="0.2dp"
+        android:background="@color/cinza"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text_calculo"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginEnd="0.2dp"
+        android:background="@color/cinza"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="0.8"
+android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button_porcentagem"
+        style="@style/Numeros_buttons"
+        android:layout_height="91dp"
+        android:text="%" />
+
+<Button
+    android:id="@+id/button_parentes1"
+    style="@style/Numeros_buttons"
+    android:text="("/>
+<Button
+    android:id="@+id/button_parentes2"
+    style="@style/Numeros_buttons"
+    android:text=")"/>
+
+    <Button
+        android:id="@+id/button_dividir"
+        style="@style/Operacao_Button"
+        android:layout_height="match_parent"
+        android:text="/" />
+
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:orientation="horizontal">
+
+<Button
+    android:id="@+id/button_7"
+    style="@style/Numeros_buttons"
+    android:text="7"/>
+
+<Button
+    android:id="@+id/button_8"
+    style="@style/Numeros_buttons"
+    android:text="8"/>
+<Button
+    android:id="@+id/button_9"
+    style="@style/Numeros_buttons"
+    android:text="9"/>
+
+    <Button
+        android:id="@+id/button_mutiplicar"
+        style="@style/Operacao_Button"
+        android:layout_height="match_parent"
+        android:text="x" />
+
+
+</LinearLayout>
+
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:orientation="horizontal">
+
+<Button
+    android:id="@+id/button_4"
+    style="@style/Numeros_buttons"
+    android:text="4"/>
+
+<Button
+    android:id="@+id/button_5"
+    style="@style/Numeros_buttons"
+    android:text="5"/>
+<Button
+    android:id="@+id/button_6"
+    style="@style/Numeros_buttons"
+    android:text="6"/>
+
+    <Button
+        android:id="@+id/button_diminuir"
+        style="@style/Operacao_Button"
+        android:layout_width="1dp"
+        android:layout_height="114dp"
+        android:text="-" />
+
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:orientation="horizontal">
+
+<Button
+    android:id="@+id/button_1"
+    style="@style/Numeros_buttons"
+    android:text="1"/>
+
+<Button
+    android:id="@+id/button_2"
+    style="@style/Numeros_buttons"
+    android:text="2"/>
+<Button
+    android:id="@+id/button_3"
+    style="@style/Numeros_buttons"
+    android:text="3"/>
+
+    <Button
+        android:id="@+id/button_somar"
+        style="@style/Operacao_Button"
+        android:layout_height="114dp"
+        android:text="+" />
+
+
+</LinearLayout>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:orientation="horizontal">
+
+<Button
+    android:id="@+id/button_0"
+    style="@style/Numeros_buttons"
+    android:text="0"/>
+
+<Button
+    android:id="@+id/button_ponto"
+    style="@style/Numeros_buttons"
+    android:text="."/>
+
+
+<ImageButton
+    android:id="@+id/Button_apagar"
+    android:layout_width="7dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    app:srcCompat="@drawable/ic_baseline_backspace_24" />
+
+<Button
+    android:id="@+id/button_igual"
+    style="@style/Igual_Button._Button"
+    android:text="="/>
+
+
+</LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
